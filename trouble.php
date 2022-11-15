@@ -35,7 +35,7 @@ $num2 = $_POST['num2'];
 $myTotal -= $num1 + $num2;
 
 if(empty($_POST['num1'] &&
-$_POST['num2'] )) {
+$_POST['num2'])) {
 
 echo '<p class="error">Please fill out all of the fields!</p>';
 

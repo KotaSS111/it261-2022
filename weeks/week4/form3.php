@@ -38,7 +38,7 @@
 if(isset($_POST['first_name'],
 $_POST['last_name'],
 $_POST['email'],
-$_POST['comments']))  {
+$_POST['comments'])) {
 
 $first_name = $_POST['first_name'];
 $last_name = $_POST['last_name'];
@@ -52,7 +52,7 @@ $_POST['last_name'] &&
 $_POST['email'] &&
 $_POST['comments'] )) {
 
-echo '<p class="error">Please fill out all of the fields!</p>';
+echo '<p class="error">Please fill out all of the fields</p>';
 
 
 } else {

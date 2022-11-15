@@ -11,6 +11,10 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.current{
+    color:red;
+}
+
 header {
     background:rgb(59, 59, 59);
   padding:20px 0;
