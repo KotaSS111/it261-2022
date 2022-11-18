@@ -50,7 +50,7 @@ function make_links($nav) {
     $my_return = '';
     foreach($nav as $key => $value) {
         if(THIS_PAGE  == $key){
-         $myreturn .= '<li><a class ="current" href=" '.$key.' "> '.$value.' </a></li>';
+         $my_return .= '<li><a class ="current" href=" '.$key.' "> '.$value.' </a></li>';
     } else {
     $my_return .= '<li><a href=" '.$key.' "> '.$value.' </a></li>';
     }
